@@ -7,7 +7,7 @@ export default function Header() {
         <h1> Web Development </h1>
         <Typed
         className='typed-text'
-        strings={['Web Design','Web Development','Google Ads']}
+        strings={['Web Design','Web Development','Google Ads','Custom Backend Development']}
         typeSpeed={40}
         backSpeed={60}
         loop
