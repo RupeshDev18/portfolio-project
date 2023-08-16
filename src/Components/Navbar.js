@@ -15,19 +15,19 @@ export default function Navbar() {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav">
         <li className="nav-item">
-          <a className="nav-link" aria-current="page" href="/">Home</a>
+          <a className="nav-link" aria-current="page" href="#header">Home</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="/">About Me</a>
+          <a className="nav-link" href="#aboutme">About Me</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="/">Services</a>
+          <a className="nav-link" href="#services">Services</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="/">how work</a>
+          <a className="nav-link" href="#experience">Experience</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="/">portfolio</a>
+          <a className="nav-link" href="#portfolio">portfolio</a>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="/">Contact Me</a>

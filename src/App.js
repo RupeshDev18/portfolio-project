@@ -4,6 +4,12 @@ import Navbar from './Components/Navbar';
 import Header from './Components/Header';
 import Particles from 'react-tsparticles';
 import AboutMe from './Components/AboutMe';
+import Services from './Components/Services';
+import Experience from './Components/Experience';
+import Portfolio from './Components/Portfolio';
+import Testimonials from './Components/Testimonials';
+import Contact from './Components/Contact';
+
 function App() {
   return (
     <>
@@ -27,9 +33,25 @@ function App() {
         }
       }}
     />
+
+
+      
+
+
+
+
+
+
+
+
     <Navbar/>
     <Header/>
     <AboutMe/>
+    <Services/>
+    <Experience/>
+    <Portfolio/>
+    <Testimonials/>
+    <Contact/>
     </>
   );
 }
