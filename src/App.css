@@ -163,7 +163,7 @@ nav ul li{
 }
 
 .services h1{
-  color: var(--primay-dark);
+  color: var(--primary-dark);
   text-transform: uppercase;
 }
 .services .circle{
