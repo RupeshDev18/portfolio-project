@@ -6,7 +6,7 @@
   --primary-grey:#ccd1d9;
   --primary-dark-grey:#666666;
   --primary-orange:#f9ab00;
-  --primay-dark:rgb(52,58,64);
+  --primary-dark:rgb(52,58,64);
   --primary-red:#ef4035;
   --primary-hover-red:#f33501;
   --primary-black:#000000;
@@ -41,7 +41,7 @@ nav ul li{
   margin-right: 0.75rem;
   margin-left: 0.75rem;
   color: var(--primary-white) !important;
-  border-top: 0.1875rem solid var(--primay-dark);
+  border-top: 0.1875rem solid var(--primary-dark);
 }
 
 .navbar-brand{
@@ -54,7 +54,7 @@ nav ul li{
     width: 7rem;
   }
 }
-.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus{
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus{
   border-top: 0.1875rem solid var(--primary-orange);
 }
 
@@ -68,7 +68,7 @@ nav ul li{
   background: url(wall-and-laptop-background.jpg);
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
 }
 .main-info{
 
@@ -339,6 +339,12 @@ nav ul li{
   transition: 0.3s ease-in-out;
   cursor: pointer;
 }
+
+.popupbox-wrapper{
+  margin-top: 7rem;
+}
+
+/************ OVERFLOW BOX **********/
 .portfolio-image-popupbox{
   width: 45rem;
   padding: 0 0.5rem;
@@ -440,7 +446,7 @@ nav ul li{
 
 /**************** CONTACTS COMPONENT ********************/
 .contacts{
-  background: var(--primay-dark);
+  background: var(--primary-dark);
   padding: 3rem 0;
 }
 .contacts h1{
@@ -534,5 +540,21 @@ textarea.form-control{
   }
 }
 
-
-
+/*********************************** Footer **************************/
+.footer{
+  background: var(--primary-black);
+  color: var(--primary-dark-grey);
+  padding: 3rem;
+}
+.footer a{
+  text-decoration: none;
+  color: var(--primary-dark-grey);
+}
+.footer a:hover{
+  text-decoration: none;
+  color: var(--primary-orange);
+  cursor: pointer;
+}
+.footer p{
+  margin-bottom: 0;
+}

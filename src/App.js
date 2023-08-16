@@ -9,6 +9,7 @@ import Experience from './Components/Experience';
 import Portfolio from './Components/Portfolio';
 import Testimonials from './Components/Testimonials';
 import Contact from './Components/Contact';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -52,6 +53,7 @@ function App() {
     <Portfolio/>
     <Testimonials/>
     <Contact/>
+    <Footer/>
     </>
   );
 }

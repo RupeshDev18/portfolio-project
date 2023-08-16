@@ -1,6 +1,11 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faDesktop, faFileCode, faGlobe, faTools } from "@fortawesome/free-solid-svg-icons";
+import {
+  faDesktop,
+  faFileCode,
+  faGlobe,
+  faTools,
+} from "@fortawesome/free-solid-svg-icons";
 // import {}
 
 export default function Services() {
@@ -49,6 +54,10 @@ export default function Services() {
                 <FontAwesomeIcon className="icon" icon={faTools} size="2x" />
               </div>
               <h3>Custom Backend Development</h3>
+              <p>
+                Ensure seamless communication between the frontend and backend
+                components.
+              </p>
             </div>
           </div>
         </div>
