@@ -195,7 +195,7 @@ nav ul li{
 
 .services .box:hover{
   background: var(--primary-orange);
-  border-bottom:0.3125rem solid var(--primay-dark);
+  border-bottom:0.3125rem solid var(--primary-dark);
 
 }
 .services .box:hover .icon{
