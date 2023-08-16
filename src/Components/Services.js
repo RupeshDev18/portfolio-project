@@ -1,15 +1,15 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faDesktop, faFileCode } from "@fortawesome/free-solid-svg-icons";
+import { faDesktop, faFileCode, faGlobe, faTools } from "@fortawesome/free-solid-svg-icons";
 // import {}
 
 export default function Services() {
   return (
-    <div className="services">
+    <div className="services" id="services">
       <h1 className="py-5"> my services</h1>
       <div className="container">
         <div className="row">
-          <div className="col-md-3 col-sm-6">
+          <div className="col-lg-3 col-md-6 col-sm-6">
             <div className="box">
               <div className="circle">
                 <FontAwesomeIcon className="icon" icon={faDesktop} size="2x" />
@@ -22,7 +22,7 @@ export default function Services() {
             </div>
           </div>
 
-          <div className="col-md-3 col-sm-6">
+          <div className="col-lg-3 col-md-6 col-sm-6">
             <div className="box">
               <div className="circle">
                 <FontAwesomeIcon className="icon" icon={faFileCode} size="2x" />
@@ -31,10 +31,10 @@ export default function Services() {
               <p>Your website will be build with an new proven technologies.</p>
             </div>
           </div>
-          <div className="col-md-3 col-sm-6">
+          <div className="col-lg-3 col-md-6 col-sm-6">
             <div className="box">
               <div className="circle">
-                <FontAwesomeIcon className="icon" icon="fa-brands fa-google" size="2x" />
+                <FontAwesomeIcon className="icon" icon={faGlobe} size="2x" />
               </div>
               <h3>Google Ads</h3>
               <p>
@@ -43,10 +43,10 @@ export default function Services() {
               </p>
             </div>
           </div>
-          <div className="col-md-3 col-sm-6">
+          <div className="col-lg-3 col-md-6 col-sm-6">
             <div className="box">
               <div className="circle">
-                <FontAwesomeIcon className="icon" icon="fa-brands fa-google" size="2x" />
+                <FontAwesomeIcon className="icon" icon={faTools} size="2x" />
               </div>
               <h3>Custom Backend Development</h3>
             </div>
