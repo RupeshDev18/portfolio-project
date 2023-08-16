@@ -195,18 +195,18 @@ nav ul li{
 
 .services .box:hover{
   background: var(--primary-orange);
-  border-bottom:0.3125rem solid var(--primay-dark);
+  border-bottom:0.3125rem solid var(--primary-dark);
 
 }
 .services .box:hover .icon{
-  color: var(--primay-dark);
+  color: var(--primary-dark);
 }
 
 .services .box:hover .circle{
   background: var(--primary-white);
 }
 .services .box:hover p{
-  color: var(--primay-white);
+  color: var(--primary-white);
 }
 /*************************** EXPERIENCE *******************************/
 .experience{
@@ -408,7 +408,7 @@ nav ul li{
   background: var(--primary-transparent-black);
 }
 .myCarousel{
-  color: var(--primay-white);
+  color: var(--primary-white);
   margin-top: -6%;
   background: transparent;
   width: 54%;
@@ -518,7 +518,7 @@ textarea.form-control{
 }
 
 .error-message{
-  color: var(--primay-white);
+  color: var(--primary-white);
   background: var(--primary-hover-red);
   text-align: left;
 }
