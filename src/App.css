@@ -19,7 +19,8 @@ body{
 }
 /*************************** NAVBAR *******************************/
 nav{
-  z-index: 2;
+  background-color: #343a40;
+  /* z-index: 2; */
 }
 .logo{
   width: 16.25rem;
@@ -112,6 +113,7 @@ nav ul li{
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
   color: var(--primary-white);
   margin: 2rem;
+  text-decoration: none;
 }
 .btn-main-offer:hover{
   text-decoration: none;
@@ -163,7 +165,7 @@ nav ul li{
 }
 
 .services h1{
-  color: var(--primay-dark);
+  color: var(--primary-dark);
   text-transform: uppercase;
 }
 .services .circle{
@@ -199,14 +201,14 @@ nav ul li{
 
 }
 .services .box:hover .icon{
-  color: var(--primay-dark);
+  color: var(--primary-dark);
 }
 
 .services .box:hover .circle{
   background: var(--primary-white);
 }
 .services .box:hover p{
-  color: var(--primay-white);
+  color: var(--primary-white);
 }
 /*************************** EXPERIENCE *******************************/
 .experience{
@@ -251,7 +253,7 @@ nav ul li{
   width: 1rem;
   height: 1rem;
   border-radius: 50%;
-  border: 0.3125rem solid var(--primay-dark);
+  border: 0.3125rem solid var(--primary-dark);
   background: var(--primary-orange);
   margin-top: 0.625rem;
   z-index: 3;
@@ -408,7 +410,7 @@ nav ul li{
   background: var(--primary-transparent-black);
 }
 .myCarousel{
-  color: var(--primay-white);
+  color: var(--primary-white);
   margin-top: -6%;
   background: transparent;
   width: 54%;
@@ -518,7 +520,7 @@ textarea.form-control{
 }
 
 .error-message{
-  color: var(--primay-white);
+  color: var(--primary-white);
   background: var(--primary-hover-red);
   text-align: left;
 }
