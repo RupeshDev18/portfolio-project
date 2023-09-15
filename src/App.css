@@ -19,7 +19,8 @@ body{
 }
 /*************************** NAVBAR *******************************/
 nav{
-  z-index: 2;
+  background-color: #343a40;
+  /* z-index: 2; */
 }
 .logo{
   width: 16.25rem;
@@ -112,6 +113,7 @@ nav ul li{
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
   color: var(--primary-white);
   margin: 2rem;
+  text-decoration: none;
 }
 .btn-main-offer:hover{
   text-decoration: none;
