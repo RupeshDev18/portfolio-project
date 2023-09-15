@@ -13,7 +13,7 @@ import {
 } from 'react-share';
 
 export default function Footer() {
-    const url='https://github.com/Rupesh180902'
+    const url='https://portfolio-u3mc.onrender.com/'
   return (
     <div className='footer'>
       <div className="container">
